@@ -16,6 +16,6 @@ describe("getAPIKey", () => {
     });
 
     test("api is long enough", () => {
-        expect(getAPIKey(stillNullHeader)).toBeNull();
+        expect(getAPIKey(realHeader)).toBeNull();
     });
 });
